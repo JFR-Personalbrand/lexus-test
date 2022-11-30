@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Navbar from '../components/Navbar'
 
 const Home: NextPage = () => {
   return (
@@ -10,33 +11,13 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="w-full bg-red-300">
-        <div className="border-b-[1px] border-b-slate-100">
-          <div className="mx-6">
-            <div className="flex justify-end">
-              
-              <div className="">
-                <a href="">
-                  ss
-                </a>
-              </div>
-              
-              <div className="">
-                <a href=""></a>
-              </div>
-              
-              <div className="">
-                <a href=""></a>
-              </div>
+      <main className="w-full">
 
-              <div className="">
-                <a href=""></a>
-              </div>
-
-            </div>
-          </div>
-        </div>
+        <Navbar /> 
         
+
+
+
       </main>
 
       <footer className="flex h-24 w-full items-center justify-center border-t">

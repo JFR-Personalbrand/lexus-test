@@ -21,7 +21,7 @@ module.exports = {
           fontStyle: 'normal',
           fontWeight: '300',
           lineHeight: '1.875rem',
-          letterSpacing: '.12rem',
+          letterSpacing: '.025rem',
         },
 
         '.display-2': {
