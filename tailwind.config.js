@@ -23,9 +23,11 @@ module.exports = {
         light: {
           DEFAULT: '#fff',
           100 : '#f3f3f3',
+          150 : '#eee',
         },
         dark: {
           DEFAULT: '#000',
+          normal: '#333',
           hover: '#333',
         },
       }

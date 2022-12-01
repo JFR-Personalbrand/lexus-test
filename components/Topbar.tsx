@@ -2,7 +2,7 @@
 export default function Topbar() {
   return (
     <>
-      <div className="border-b-[1px] hidden lg:block border-r-slate-100">
+      <div className="border-y hidden lg:block border-y-slate-100">
           <div className="mx-6">
             <div className="flex justify-end">
               

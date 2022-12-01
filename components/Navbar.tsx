@@ -7,7 +7,7 @@ import Topbar from "./Topbar";
 export default function Navbar() {
   return (
     <>
-      <div className="fixed w-full">
+      <div className="fixed bg-white w-full">
         <Topbar />
 
         <div className="flex justify-between border-b border-b-slate-100 h-[72px] lg:h-20">
