@@ -1,8 +1,11 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Features from '../components/Features'
 import Lateralbar from '../components/Lateralbar'
 import Navbar from '../components/Navbar'
+import ServingDubling from '../components/ServingDubling'
+import TestDriveCTA from '../components/TestDriveCTA'
 import VsFrame from '../components/VsFrame'
 
 const Home: NextPage = () => {
@@ -16,9 +19,9 @@ const Home: NextPage = () => {
 
 
       <Navbar /> 
-      <main className="w-full container mx-auto px-4">
+      <main className="w-full container mx-auto px-4 lg:px-1">
         <div className=" md:px-6 lg:px-8 pt-40 ">
-          <div className="flex flex-col md:flex-row justify-between main-content">
+          <div className="flex flex-col md:flex-row justify-between items-start main-content">
             
             <div className="content md:pr-7 md:w-3/4">
               <div className="heading">
@@ -28,6 +31,14 @@ const Home: NextPage = () => {
               </div>
 
               <VsFrame />
+
+
+              <ServingDubling />
+
+              <Features />
+
+              <TestDriveCTA />
+
             </div>
             
             <Lateralbar />

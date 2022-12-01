@@ -58,7 +58,7 @@ export default function Lateralbar() {
               <div className="p-3">
                   
                 <iframe className="border-0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6104.007081224337!2d-83.094664!3d40.097634!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x18b3c376a6bbc7c5!2sGermain%20Lexus%20of%20Dublin!5e0!3m2!1sen!2sus!4v1669912639245!5m2!1sen!2sus" 
-                    width="100%" height="152"  loading="lazy"></iframe>
+                    width="100%" height="152" allowFullScreen loading="lazy"></iframe>
               </div>
           </div>
       </div>
