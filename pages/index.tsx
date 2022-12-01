@@ -7,13 +7,17 @@ const Home: NextPage = () => {
   return (
     <div className="site">
       <Head>
-        <title>Create Next App</title>
+        <title>Compare 2023 Lexus RX 350 vs 2023 Volvo XC90</title>
         <link rel="icon" href="/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@100;200;300;400;500&display=swap" rel="stylesheet"></link>
       </Head>
 
-      <main className="w-full">
+      <main className="w-full h-[200vh]">
 
-        <Navbar /> 
+        
+          <Navbar /> 
+       
+        
         
 
 

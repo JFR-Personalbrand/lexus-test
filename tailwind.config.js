@@ -10,7 +10,26 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: {
+          DEFAULT: '#ec1f28',
+          hover: '#D41C24',
+        },
+        secondary: {
+          DEFAULT: '#444',
+          hover: '#3D3D3D',
+        },
+        light: {
+          DEFAULT: '#fff',
+          100 : '#f3f3f3',
+        },
+        dark: {
+          DEFAULT: '#000',
+          hover: '#333',
+        },
+      }
+    },
   },
   plugins: 
   [

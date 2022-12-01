@@ -2,3 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+body { 
+    font-family: 'Sarabun', sans-serif;
+}
+
+.searchicon{
+    stroke:none;
+    fill-rule:nonzero;
+    fill:rgb(54.901963%,58.039218%,60.784316%);
+    fill-opacity:1;
+}
+
+.itemnavbar:hover{
+    color: #333;
+}
+
+.menu:hover .path {
+    stroke: rgb(255, 255, 255);
+}
